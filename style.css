@@ -1,0 +1,87 @@
+
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: #1f2937;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .bill-box {
+      background-color: #111827;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .bill-box h2 {
+      text-align: center;
+      color: #ffd369;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    label {
+      margin-top: 5px;
+      font-size: 1.1rem;
+      display: block;
+      font-weight: 500;
+    }
+
+    input {
+      width: 100%;
+      padding: 6px;
+      margin-top: 2px;
+      margin-bottom: 8px;
+      border-radius: 4px;
+      border: none;
+      box-shadow: inset 1px 1px 3px rgba(0,0,0,0.4);
+    }
+
+    button {
+      margin: 10px 5px 20px 0;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    table th, table td {
+      padding: 5px;
+      text-align: center;
+    }
+
+    table thead {
+      background-color: #000;
+    }
+
+    #grandTotal {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      color: #bb86fc;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .bill-box {
+        width: 90%;
+      }
+    }
