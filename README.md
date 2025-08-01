@@ -17,4 +17,4 @@ A simple and stylish web-based Bill Generator built using HTML, CSS, and JavaScr
 - JavaScript
 
 ## 📂 Project Structure
-
+https://sumitjangid2446.github.io/bill-genratore/
